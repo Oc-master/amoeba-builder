@@ -17,3 +17,6 @@ rules:
   max-len:
     - error
     - 120
+  # require return statements to either always or never specify values
+  consistent-return: off
+  class-methods-use-this: off
