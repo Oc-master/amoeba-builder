@@ -1,0 +1,19 @@
+parserOptions:
+  ecmaVersion: '2018'
+  sourceType: module
+parser: babel-eslint
+env:
+  browser: true
+  node: true
+  commonjs: true
+  es6: true
+extends: airbnb-base
+rules:
+  # disallow use of console
+  no-console: warn
+  # disallow use of debugger
+  no-debugger: error
+  # specify the maximum length of a line in your program
+  max-len:
+    - error
+    - 120
